@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida - David Jaramillo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hoja de Vida - David Jaramillo</h1>
+        <h2>Edad: 23 años</h2>
+        <h2>Habilidades:</h2>
+        <ul>
+            <li>Fotografía de retrato</li>
+            <li>Edición de vídeo</li>
+            <li>Iluminación cinematográfica</li>
+            <li>Storyboarding</li>
+            <li>Postproducción de imagen</li>
+        </ul>
+        <h2>Resumen:</h2>
+        <p>Soy un estudiante apasionado de fotografía y cine, con habilidades en diversas áreas creativas como la fotografía de retrato, edición de vídeo y postproducción de imagen. Me destaco por mi capacidad para trabajar en equipo y mi creatividad para encontrar soluciones visuales impactantes.</p>
+        
+        <h2>Formulario de Contacto:</h2>
+        <form class="contact-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
